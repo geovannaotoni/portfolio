@@ -1,12 +1,26 @@
 body {
     background-color: rgb(202, 240, 248);
+    padding: 10px;
 }
 #meuNome {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 #descricao {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 280px;
 }
+
+#foto {
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(2, 62, 138);
+    /* eu tinha usado assim border: 10px solid rgb(2, 62, 138);*/
+    float: left;
+}
+
 strong {
     color: rgb(2, 62, 138);
 }
@@ -29,5 +43,19 @@ strong {
 .git {
     font-size: 12px;
 }
+ul li:nth-child(odd) {
+    font-style: italic;
+}
+.image-container {
+    height: 270px;
+    position: relative;
+}
+
+
+/* usei para auxiliar a visualizacao das divs
+div {
+    border: 2px solid black;
+} */
+
 /* minha paleta de cores: https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
 */
