@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(202, 240, 248);
+}
+#meuNome {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#descricao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+strong {
+    color: rgb(2, 62, 138);
+}
+#local {
+    font-style: italic;
+    font-weight: bold;
+}
+.javascript {
+    font-size: 20px;
+}
+.html {
+    font-size: 18px;
+}
+.css {
+    font-size: 16px;
+}
+.unix {
+    font-size: 14px;
+}
+.git {
+    font-size: 12px;
+}
+/* minha paleta de cores: https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
+*/
