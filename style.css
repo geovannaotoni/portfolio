@@ -1,61 +1,102 @@
 body {
-    background-color: rgb(202, 240, 248);
-    padding: 10px;
-}
-#meuNome {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-#descricao {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    top: 40%;
-    left: 280px;
-}
-
-#foto {
-    width: 250px;
-    padding: 10px;
-    background-color: rgb(2, 62, 138);
-    /* eu tinha usado assim border: 10px solid rgb(2, 62, 138);*/
-    float: left;
-}
-
-strong {
-    color: rgb(2, 62, 138);
-}
-#local {
-    font-style: italic;
-    font-weight: bold;
-}
-.javascript {
-    font-size: 20px;
-}
-.html {
+    background-color: rgb(225, 242, 242);
+    font-family: sans-serif;
     font-size: 18px;
-}
-.css {
-    font-size: 16px;
-}
-.unix {
-    font-size: 14px;
-}
-.git {
-    font-size: 12px;
-}
-ul li:nth-child(odd) {
-    font-style: italic;
-}
-.image-container {
-    height: 270px;
-    position: relative;
-}
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  header h1 {
+    width: fit-content;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  nav {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  img {
+    width: 300px;
+    border: 10px solid blue;
+    box-shadow: 3px black;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: blue;
+    text-align: center;
+  }
+  
+  article, .lado-esquerdo {
+    line-height: 20px;
+    display: inline;
+    width: 50%;
+    float: left;
+    height: 200px;
+    margin-left: 50px;
+  }
+  
+  aside, .lado-direito {
+    display: block;
+    width: 40%;
+    float: right;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  article p, aside p {
+    text-align: justify;
+  }
+  
+  ul, ol {
+    display: inline-block;
+  }
+  
+  #listas {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    background-color: white;
+  }
+  table {
+    margin: 10px auto;
+  }
+  
+  table th, table td {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+  }
+  
+  footer p {
+    width: fit-content;
+    margin: 0 auto;
+  }
 
-
-/* usei para auxiliar a visualizacao das divs
-div {
-    border: 2px solid black;
-} */
+  footer a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;    
+  }
+  
 
 /* minha paleta de cores: https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
 */
