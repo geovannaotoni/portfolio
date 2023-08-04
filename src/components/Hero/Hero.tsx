@@ -13,7 +13,7 @@ function Hero() {
       <article className={styles.hero_content}>
         <h3>Olá, meu nome é</h3>
         <h1>Geovanna Otoni</h1>
-        <h3>E eu sou uma <span>Desenvolvedora Full Stack</span></h3>
+        <h3>Sou uma <span>Desenvolvedora Full Stack</span></h3>
         <p>Além de completamente apaixonada por tecnologia.</p>
         <div className={styles.social_media}>
           <a href="https://github.com/geovannaotoni">
@@ -27,15 +27,15 @@ function Hero() {
 
       <article>
         <Image 
-          className={styles.logo}
+          className={styles.image}
           src="/profile-pic.jpeg"
           alt="Geovanna Img"
           width={450}
           height={450}
           style={{
             border: '3px solid rgb(230, 0, 255)',
-            borderRadius: '3rem', 
-            boxShadow: '0 0 0.3rem rgb(230, 0, 255)' }}
+            borderRadius: '50%', 
+            boxShadow: '0 0 0.5rem rgb(230, 0, 255)' }}
           // style={{ width: '35vw' }}
         />
       </article>

@@ -4,13 +4,13 @@
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background-color: #1f242d;
+  background-color: #0f0f11;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgb(230, 0, 255);
   box-shadow: 0 0 1rem rgb(230, 0, 255);
-  /* z-index: 100; */
+  z-index: 100;
 }
 
 .logo {
