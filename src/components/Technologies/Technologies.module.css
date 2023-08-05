@@ -1,0 +1,40 @@
+.tech span {
+  color: rgb(230, 0, 255);
+}
+
+.tech h2 {
+  text-align: center;
+  font-size: 4.5rem;
+  margin-bottom: 5rem;
+}
+
+.tech_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.tech_container article {
+  flex: 1 1 30rem;
+  background-color: #323946;
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid rgb(230, 0, 255);
+}
+
+.tech_container article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 1rem rgb(230, 0, 255);
+}
+
+.tech_container h3 {
+  font-size: 2.5rem;
+}
+
+.icon {
+  color: rgb(230, 0, 255);
+  font-size: 4rem;
+}
