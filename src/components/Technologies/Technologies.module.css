@@ -23,6 +23,8 @@
   border-radius: 2rem;
   text-align: center;
   border: 0.2rem solid rgb(230, 0, 255);
+  min-height: 30vw;
+  margin-bottom: 3rem;
 }
 
 .tech_container article:hover {
@@ -30,11 +32,24 @@
   box-shadow: 0 0 1rem rgb(230, 0, 255);
 }
 
+.tech_container article div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
 .tech_container h3 {
   font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .icon {
   color: rgb(230, 0, 255);
   font-size: 4rem;
+}
+
+.image {
+  max-width: 30%;
 }

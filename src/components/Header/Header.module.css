@@ -41,8 +41,8 @@
 }
 
 .menu_icon {
-  font-size: 3.6rem;
-  display: none;
+  font-size: 3.6rem !important;
+  display: none !important;
 }
 
 /* maior que 992px: desktops */
@@ -55,7 +55,7 @@
 /* maior que 768px: telas menores, laptops */
 @media (max-width: 768px) {
   .menu_icon {
-    display: block;
+    display: block !important;
   }
 
   .navbar {

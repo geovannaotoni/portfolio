@@ -9,8 +9,8 @@ import Contact from '@/components/Contact/Contact';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Header/>
+    <main className={ styles.main }>
+      <Header />
       <Hero />
       <About />
       <Technologies />
@@ -18,5 +18,5 @@ export default function Home() {
       <Contact />
       <Footer />
     </main>
-  )
+  );
 }
