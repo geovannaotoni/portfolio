@@ -9,7 +9,7 @@ const projects = [
     src: 'https://github.com/geovannaotoni/trybe-project-trybetunes',
     img: trybetunes,
     deploy: 'https://geovannaotoni-trybetunes.surge.sh/',
-    tecnologies: ['CSS', 'HTML', 'JavaScript', 'JSX', 'React',  'React Router Dom', 'Componentes de Classe', 'PropTypes', 'NPM', 'Requisições via API'],
+    tecnologies: ['CSS', 'HTML', 'JavaScript', 'JSX', 'React', 'React Router Dom', 'Componentes de Classe', 'PropTypes', 'NPM', 'Requisições via API'],
     description: 'Projeto em React de um site de músicas. Ao utilizar essa aplicação, a pessoa usuária é capaz de pesquisar albuns de artistas/bandas, visualizar e reproduzir as músicas de cada album, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada no site.'
   },
   {

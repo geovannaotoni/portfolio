@@ -29,18 +29,18 @@
 }
 
 .social_media_icon {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 5rem;
-  height: 5rem;
-  border: 0.2rem solid rgb(230, 0, 255);
-  padding: 0.5rem;
-  border-radius: 50%;
-  font-size: 3rem;
-  color: rgb(230, 0, 255);
-  margin: 2.5rem 1.5rem 2.5rem 0;
-  transition: 0.5s ease;
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 5rem !important;
+  height: 5rem !important;
+  border: 0.2rem solid rgb(230, 0, 255) !important;
+  padding: 0.5rem !important;
+  border-radius: 50% !important;
+  font-size: 3rem !important;
+  color: rgb(230, 0, 255) !important;
+  margin: 2.5rem 1.5rem 2.5rem 0 !important;
+  transition: 0.5s ease !important;
 }
 
 .social_media_icon:hover {
