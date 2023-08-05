@@ -47,7 +47,7 @@
 
 .icon {
   color: rgb(230, 0, 255);
-  font-size: 4rem;
+  font-size: 4rem !important;
 }
 
 .image {
