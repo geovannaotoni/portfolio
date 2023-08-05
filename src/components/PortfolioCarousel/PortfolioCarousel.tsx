@@ -28,9 +28,8 @@ const PortfolioCarousel = () => {
           <Image 
             className={styles.image}
             src={project.img}
-            alt="Geovanna Img"
-            width={250}
-            height={250}
+            layout="responsive"
+            alt="Project Img"
           />
           <div className={styles.project_content}>
             <h4>{project.title}</h4>

@@ -25,4 +25,12 @@
   .projects {
     gap: 5rem;
   }
+
+  .projects h2 {
+    margin-bottom: 0;
+  }
+
+  .projects .projects_container {
+    margin-bottom: 2rem;
+  }
 }

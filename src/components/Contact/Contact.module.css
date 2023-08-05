@@ -62,3 +62,10 @@
   background-color: rgba(230, 0, 255, 0.5);
   cursor: default;
 }
+
+/* menor que 600px: telas de celular */
+@media (max-width: 600px) {
+  .contact form div input {
+    width: 100%;
+  }
+}

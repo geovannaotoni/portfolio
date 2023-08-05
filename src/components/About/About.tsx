@@ -12,14 +12,15 @@ function About() {
       <article>
         <Image 
           className={styles.image}
-          src="/profile-pic.jpeg"
+          src="/computer.png"
           alt="Geovanna Img"
+          layout="responsive"
           width={450}
           height={450}
-          style={{
-            border: '3px solid rgb(230, 0, 255)',
-            borderRadius: '50%', 
-            boxShadow: '0 0 0.5rem rgb(230, 0, 255)' }}
+          // style={{
+          //   border: '3px solid rgb(230, 0, 255)',
+          //   borderRadius: '50%', 
+          //   boxShadow: '0 0 0.5rem rgb(230, 0, 255)' }}
         />
       </article>
       <article className={styles.about_content}>

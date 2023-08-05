@@ -8,6 +8,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 
 function Hero() {
+  const handleDownload = () => {
+    const pdfURL = '/pdfs/CV.pdf';
+    window.open(pdfURL, '_blank');
+  }
+
   return (
     <section id='home' className={styles.hero}>
       <article className={styles.hero_content}>
@@ -20,9 +25,9 @@ function Hero() {
             <GitHubIcon className={styles.social_media_icon} />
           </a>
           <a href="https://www.linkedin.com/in/geovanna-otoni/"><LinkedInIcon className={styles.social_media_icon} /></a>
-          <a href=""><EmailIcon className={styles.social_media_icon} /></a>
+          <a href="mailto:geovannaotoni@gmail.com"><EmailIcon className={styles.social_media_icon} /></a>
         </div>
-        <a href="#" className={styles.btn_cv}>Download CV</a>
+        <a href="#" className={styles.btn_cv} onClick={handleDownload}>Download CV</a>
       </article>
 
       <article>
