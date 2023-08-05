@@ -1,7 +1,10 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import {ChangeEvent, FormEvent} from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2'
 import styles from './Contact.module.css';
+import { SERVICE_ID, TEMPLATE_ID, USER_ID } from '../../../env';
 
 function Contact() {
   const initialFields = {
@@ -12,13 +15,17 @@ function Contact() {
     message: '',
   }
   const [fields, setFields] = useState(initialFields);
-  const [disableBtn, setDisableBtn] = useState(true)
+  const [disableBtn, setDisableBtn] = useState(true);
 
   const verifyFields = () => {
     const emailRegex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i;
     const validationEmail = emailRegex.test(fields.email);
     validationEmail ? setDisableBtn(false) : setDisableBtn(true);
   }
+
+  useEffect(() => {
+    emailjs.init(USER_ID);
+  }, [])
 
   useEffect(() => {
     verifyFields();
@@ -31,20 +38,43 @@ function Contact() {
     }));
   };
 
-  const handleFormSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const templateEmail = {
+    from_name: fields.name,
+    from_email: fields.email,
+    subject: fields.subject,
+    message: fields.message,
+    phone: fields.phone
+  };
+
+  const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log(fields);
 
-    // Aqui você pode realizar a lógica para enviar o formulário via API, se necessário.
-    // Por exemplo:
-    // try {
-    //   await enviarFormularioParaAPI(fields);
-    //   console.log('Formulário enviado com sucesso!');
-    //   setFields(initialFields); // Redefinir os campos para o valor inicial após o envio.
-    // } catch (error) {
-    //   console.error('Erro ao enviar formulário:', error);
-    // }
-
+    try {
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateEmail);
+      Swal.fire({
+        title: 'Formulário enviado com sucesso!',
+        text: `Mensagem de ${fields.name} (${fields.email}): ${fields.subject}`,
+        iconColor: 'rgb(230, 0, 255)',
+        confirmButtonColor: 'rgb(230, 0, 255)',
+        icon: 'success',
+        timer: 3000,
+        timerProgressBar: true,
+        background: '#0f0f11',
+        color: '#fff'
+      });
+    } catch (error) {
+      Swal.fire({
+        title: 'Erro ao enviar formulário',
+        text: `${error}`,
+        iconColor: 'rgb(230, 0, 255)',
+        confirmButtonColor: 'rgb(230, 0, 255)',
+        confirmButtonText: 'OK',
+        icon: 'error',
+        background: '#0f0f11',
+        color: '#fff'
+      });
+    }
     setFields(initialFields);
   }
 

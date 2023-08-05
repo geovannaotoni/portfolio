@@ -44,3 +44,38 @@
   font-size: 3.6rem;
   display: none;
 }
+
+/* maior que 992px: desktops */
+@media (max-width: 992px) {
+  .header {
+    padding: 2rem 3%;
+  }
+}
+
+/* maior que 768px: telas menores, laptops */
+@media (max-width: 768px) {
+  .menu_icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background-color: #0f0f11;
+    box-shadow: 0rem 1rem 1rem -1rem rgb(230, 0, 255);
+    display: none;
+  }
+
+  .navbar.open {
+    display: block;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+}

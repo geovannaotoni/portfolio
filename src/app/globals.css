@@ -33,6 +33,20 @@ section {
   padding: 10rem 9% 2rem;
 }
 
+/* maior que 1200px: telas grandes, screens, tv */
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* maior que 992px: desktops */
+@media (max-width: 992px) {
+  section {
+    padding: 10rem 3% 2rem;
+  }
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;

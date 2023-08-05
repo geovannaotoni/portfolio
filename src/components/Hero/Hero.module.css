@@ -32,12 +32,12 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border: 0.2rem solid rgb(230, 0, 255);
   padding: 0.5rem;
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: 3rem;
   color: rgb(230, 0, 255);
   margin: 2.5rem 1.5rem 2.5rem 0;
   transition: 0.5s ease;
@@ -58,6 +58,7 @@
   font-weight: 600;
   color: #0f0f11;
   transition: 0.5s ease;
+  margin-bottom: 2rem;
 }
 
 .btn_cv:hover {
