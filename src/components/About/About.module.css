@@ -21,9 +21,12 @@
 
 .about {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2rem;
   align-items: center;
   background-color: #323946;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .about_content {
@@ -43,13 +46,25 @@
 
 .about_content p {
   font-size: 1.5rem;
-  margin-left: 0.5rem;
+  margin-left: 5px;
+  height: fit-content;
 }
 
 .about_content div {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+  flex-wrap: wrap;
   height: fit-content;
   margin: 2rem 0;
+}
+
+.icon {
+  color: rgb(230, 0, 255);
+  font-size: '2rem';
+}
+
+.image {
+  width: 35vw;
+  height: 35vw;
 }

@@ -11,6 +11,9 @@ function Technologies() {
         <article>
           <CoPresentIcon className={styles.icon} />
           <h3>Front-End</h3>
+          <div>
+            
+          </div>
         </article>
         <article>
           <ManageAccountsIcon className={styles.icon} />

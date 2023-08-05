@@ -26,14 +26,14 @@ function About() {
         <h2>Sobre <span>Mim</span></h2>
         <h3>Desevolvedora Full Stack e Engenheira Química</h3>
         <div>
-          <PlaceIcon style={{color: 'rgb(230, 0, 255)', fontSize: '2rem'}}/><p>Belo Horizonte - Minas Gerais</p>
+          <PlaceIcon className={styles.icon}/><p>Belo Horizonte - Minas Gerais</p>
         </div>
         <div>
-          <SchoolIcon style={{color: 'rgb(230, 0, 255)', fontSize: '2rem'}}/>
+          <SchoolIcon className={styles.icon}/>
           <p>Engenheira Química pela Universidade Federal de Minas Gerais</p>
         </div>
         <div>
-          <MenuBookIcon style={{color: 'rgb(230, 0, 255)', fontSize: '2rem'}}/>
+          <MenuBookIcon className={styles.icon}/>
           <p>Estudando Desenvolvimento Web pela Trybe e Sistemas de Informação pela UFMG</p>
 
         </div>

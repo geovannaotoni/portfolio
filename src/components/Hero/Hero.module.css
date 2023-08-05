@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   /* background-image: url('../../../public/galaxy.jpg');
   background-size: cover; */
 }
@@ -79,6 +80,8 @@
 .image {
   /* width: '35vw'; */
   animation: moveUpAndDown 5s infinite;
+  width: 35vw;
+  height: 35vw;
 }
 
 .image:hover {

@@ -1,0 +1,64 @@
+.contact span {
+  color: rgb(230, 0, 255);
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 4.5rem;
+  margin-bottom: 5rem;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form div input, 
+.contact form div textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #323946;
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+}
+
+.contact form div input {
+  width: 49%;
+}
+
+.contact form div textarea {
+  resize: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background-color: rgb(230, 0, 255);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #0f0f11;
+  transition: 0.5s ease;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn:enabled:hover {
+  box-shadow: 0 0 1rem rgb(230, 0, 255);
+  color: white;
+}
+
+.btn:disabled {
+  background-color: rgba(230, 0, 255, 0.5);
+  cursor: default;
+}

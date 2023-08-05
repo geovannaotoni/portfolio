@@ -25,6 +25,11 @@
   border: 0.2rem solid rgb(230, 0, 255);
 }
 
+.tech_container article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 1rem rgb(230, 0, 255);
+}
+
 .tech_container h3 {
   font-size: 2.5rem;
 }
