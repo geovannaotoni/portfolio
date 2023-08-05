@@ -8,6 +8,7 @@ import styles from './PortfolioCarousel.module.css';
 import projects from '@/utils/projects';
 import LinkIcon from '@mui/icons-material/Link';
 import Image from "next/image";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const PortfolioCarousel = () => {
   const settings = {
@@ -26,15 +27,21 @@ const PortfolioCarousel = () => {
         <article key={index} className={styles.article}>
           <Image 
             className={styles.image}
-            src="/galaxy.jpg"
+            src={project.img}
             alt="Geovanna Img"
-            width={300}
-            height={300}
+            width={250}
+            height={250}
           />
-          <div>
+          <div className={styles.project_content}>
             <h4>{project.title}</h4>
             <p>{project.description}</p>
-            <a href="#"><LinkIcon className={styles.icon} /></a>
+            {/* <p><span>Tecnologias: </span> 
+              {project.tecnologies.join(', ')}
+            </p> */}
+            <div className={styles.links}>
+              <a href={project.src}><GitHubIcon className={styles.icon} />Repositório</a>
+              <a href={project.deploy}><LinkIcon className={styles.icon} /> Deploy</a>
+            </div>
           </div>
         </article>
       ))}

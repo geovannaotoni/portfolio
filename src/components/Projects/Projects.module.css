@@ -19,3 +19,10 @@
 .projects .projects_container {
   display: flex;
 }
+
+/* maior que 768px: telas menores, laptops */
+@media (max-width: 768px) {
+  .projects {
+    gap: 5rem;
+  }
+}

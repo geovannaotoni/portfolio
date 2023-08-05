@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* background-image: url('../../../public/galaxy.jpg');
   background-size: cover; */
 }
@@ -87,4 +87,11 @@
 
 .image:hover {
   scale: 1.03;
+}
+
+/* maior que 768px: telas menores, laptops */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
 }
