@@ -13,8 +13,8 @@ function Hero() {
       <article className={styles.hero_content}>
         <h3>Olá, meu nome é</h3>
         <h1>Geovanna Otoni</h1>
-        <h3>Sou uma <span>Desenvolvedora Full Stack</span></h3>
-        <p>Além de completamente apaixonada por tecnologia.</p>
+        <h3>Sou <span>Desenvolvedora Full Stack</span></h3>
+        <p>E completamente apaixonada por tecnologia.</p>
         <div className={styles.social_media}>
           <a href="https://github.com/geovannaotoni">
             <GitHubIcon className={styles.social_media_icon} />

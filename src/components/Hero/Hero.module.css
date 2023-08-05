@@ -80,3 +80,7 @@
   /* width: '35vw'; */
   animation: moveUpAndDown 5s infinite;
 }
+
+.image:hover {
+  scale: 1.03;
+}

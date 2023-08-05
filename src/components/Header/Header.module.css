@@ -36,6 +36,10 @@
   color: rgb(230, 0, 255);
 }
 
+.navbar a:hover {
+  border-bottom: 1px solid;
+}
+
 .menu_icon {
   font-size: 3.6rem;
   display: none;
