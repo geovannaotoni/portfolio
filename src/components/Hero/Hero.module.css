@@ -94,6 +94,8 @@
   .hero {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .hero_content h3 {
