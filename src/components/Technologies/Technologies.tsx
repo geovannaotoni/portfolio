@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import styles from './Technologies.module.css';
 import CoPresentIcon from '@mui/icons-material/CoPresent';

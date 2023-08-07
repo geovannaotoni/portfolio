@@ -45,7 +45,7 @@
 
 .social_media_icon:hover {
   background-color: rgb(230, 0, 255);
-  color: #323946;
+  color: #323946 !important;
   box-shadow: 0 0 1rem rgb(230, 0, 255);
 }
 
@@ -67,13 +67,16 @@
 }
 
 @keyframes moveUpAndDown {
-  0%, 100% {
+  0% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-15px);
   }
   75% {
+    transform: translateY(0px);
+  }
+  100% {
     transform: translateY(15px);
   }
 }

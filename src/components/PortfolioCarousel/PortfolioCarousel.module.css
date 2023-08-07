@@ -58,8 +58,8 @@
 
 .links a:hover {
   background-color: rgb(230, 0, 255);
-  color: #323946;
-  /* box-shadow: 0 0 1rem rgb(230, 0, 255); */
+  color: #1f242d;
+  box-shadow: 0 0 0.5rem rgb(230, 0, 255);
 }
 
 .icon {

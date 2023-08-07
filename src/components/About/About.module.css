@@ -67,4 +67,16 @@
 .image {
   width: 35vw;
   height: 35vw;
+  /* animation: scaleAndOpacity 5s infinite; */
 }
+
+/* @keyframes scaleAndOpacity {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.7;
+  }
+} */
