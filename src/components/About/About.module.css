@@ -45,7 +45,7 @@
 }
 
 .about_content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 5px;
   height: fit-content;
 }
@@ -61,7 +61,7 @@
 
 .icon {
   color: rgb(230, 0, 255);
-  font-size: '2rem';
+  font-size: 2rem;
 }
 
 .image {

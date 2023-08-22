@@ -29,7 +29,7 @@ function Header() {
       };
     });
   
-    const currentPosition = window.scrollY;
+    const currentPosition = window.scrollY + window.innerHeight / 2;
     let activeSection = '#home';
   
     sectionPositions.forEach(({ section, offsetTop, offsetBottom }) => {
