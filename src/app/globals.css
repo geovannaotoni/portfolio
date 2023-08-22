@@ -4,7 +4,7 @@
   --bg-color: #1f242d;
   --second-bg-color: #323946;
   --text-color: #fff;
-  --main-color: #0ef;
+  --main-color: rgb(230, 0, 255);
 }
 
 html {
@@ -21,6 +21,19 @@ html {
   outline: none;
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
+  scrollbar-color: #1f242d, rgb(230, 0, 255);
+}
+
+::-webkit-scrollbar {
+  background: #1f242d;
+  height: 7px;
+  transition: 300ms;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(230, 0, 255);
+  border-radius: 1ex;
 }
 
 body {
