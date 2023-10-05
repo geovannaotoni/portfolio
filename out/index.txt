@@ -1,0 +1,15 @@
+1:HL["/_next/static/media/2aaf0723e720e8b9-s.p.woff2",{"as":"font","type":"font/woff2"}]
+2:HL["/_next/static/css/9a24599e74d5192d.css",{"as":"style"}]
+0:["GRLAIWbGUCdyhv6uBkJAW",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9a24599e74d5192d.css","precedence":"next"}]],["$L4",["$","meta",null,{"name":"next-size-adjust"}]]]]]]
+5:HL["/_next/static/css/3b41b0e09a715d23.css",{"as":"style"}]
+6:I{"id":9180,"chunks":["272:static/chunks/webpack-556154a807f3a73a.js","253:static/chunks/bce60fc1-079d22b3bf043094.js","698:static/chunks/698-146b6afcbc07c37d.js"],"name":"default","async":false}
+7:I{"id":2306,"chunks":["272:static/chunks/webpack-556154a807f3a73a.js","253:static/chunks/bce60fc1-079d22b3bf043094.js","698:static/chunks/698-146b6afcbc07c37d.js"],"name":"default","async":false}
+8:I{"id":8641,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+9:I{"id":7927,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+a:I{"id":5879,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+b:I{"id":7985,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+c:I{"id":5469,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+d:I{"id":125,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+e:I{"id":5303,"chunks":["662:static/chunks/662-ae3ab7fe78799ace.js","931:static/chunks/app/page-cfa23e32430cfc14.js"],"name":"","async":false}
+3:[["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9","children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","main",null,{"className":"$undefined","children":[["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}],["$","$Ld",null,{}],["$","footer",null,{"className":"Footer_footer__4vzqH","children":[["$","p",null,{"children":"Geovanna Otoni © 2023"}],["$","$Le",null,{}]]}]]}],null],"segment":"__PAGE__"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3b41b0e09a715d23.css","precedence":"next"}]]}]}]}],null]
+4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Geovanna Otoni | Portfolio"}],["$","meta","2",{"name":"description","content":"Personal Portfolio by Geovanna Otoni"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"any"}]]
