@@ -7,9 +7,11 @@ import npm from './backend-images/-npm-323946.svg';
 import sequelize from './backend-images/-Sequelize-323946.svg';
 import chai from './backend-images/-Chai-323946.svg';
 import mocha from './backend-images/-Mocha-323946.svg';
+import python from './backend-images/-Python-323946.svg';
+import postman from './backend-images/-Postman-323946.svg';
 
 const backendTechs = [
-  docker, mysql, node, nodemon, express, npm, sequelize, chai, mocha
+  docker, mysql, node, nodemon, express, npm, sequelize, chai, mocha, python, postman,
 ];
 
 export default backendTechs;
