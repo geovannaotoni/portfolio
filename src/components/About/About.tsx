@@ -35,7 +35,7 @@ function About() {
         </div>
         <div>
           <MenuBookIcon className={styles.icon}/>
-          <p>Estudando Desenvolvimento Web pela Trybe e Sistemas de Informação pela UFMG</p>
+          <p>Formada em Desenvolvimento Web pela escola de TI Trybe</p>
 
         </div>
         <a href="https://www.linkedin.com/in/geovanna-otoni/" className={styles.btn}>Saiba mais</a>
