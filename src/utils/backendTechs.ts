@@ -9,9 +9,14 @@ import chai from './backend-images/-Chai-323946.svg';
 import mocha from './backend-images/-Mocha-323946.svg';
 import python from './backend-images/-Python-323946.svg';
 import postman from './backend-images/-Postman-323946.svg';
+import java from './backend-images/-JAVA-323946.svg'
+import spring from './backend-images/-Spring-323946.svg'
+import maven from './backend-images/-Maven-323946.svg'
+import mongodb from './backend-images/-MongoDB-323946.svg'
+import jwt from './backend-images/-JWT-323946.svg'
 
 const backendTechs = [
-  docker, mysql, node, nodemon, express, npm, sequelize, chai, mocha, python, postman,
+  node, mysql, express, sequelize, java, spring, maven, mongodb, jwt, nodemon, postman, chai, mocha
 ];
 
 export default backendTechs;

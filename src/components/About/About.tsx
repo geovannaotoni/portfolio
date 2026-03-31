@@ -5,6 +5,7 @@ import Image from 'next/image';
 import PlaceIcon from '@mui/icons-material/Place';
 import SchoolIcon from '@mui/icons-material/School';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+import EngineeringIcon from '@mui/icons-material/Engineering'
 
 function About() {
   return (
@@ -25,18 +26,21 @@ function About() {
       </article>
       <article className={styles.about_content}>
         <h2>Sobre <span>Mim</span></h2>
-        <h3>Desevolvedora Full Stack e Engenheira Química</h3>
-        <div>
+        <h3>Desevolvedora Web Full Stack</h3>
+        {/* <div>
           <PlaceIcon className={styles.icon}/><p>Belo Horizonte - Minas Gerais</p>
-        </div>
+        </div> */}
         <div>
           <SchoolIcon className={styles.icon}/>
-          <p>Engenheira Química pela Universidade Federal de Minas Gerais</p>
+          <p>Especializada em Desenvolvimento Web, Ciência de Dados e Computação na Nuvem</p>
         </div>
         <div>
           <MenuBookIcon className={styles.icon}/>
-          <p>Formada em Desenvolvimento Web pela escola de TI Trybe</p>
-
+          <p>Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+        </div>
+        <div>
+          <EngineeringIcon className={styles.icon}/>
+          <p>MBA em Engenharia de Software</p>
         </div>
         <a href="https://www.linkedin.com/in/geovanna-otoni/" className={styles.btn}>Saiba mais</a>
       </article>

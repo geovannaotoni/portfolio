@@ -10,9 +10,13 @@ import rtl from './frontend-images/-TESTING LIBRARY-323946.svg';
 import vite from './frontend-images/-VITE-323946.svg';
 import git from './frontend-images/-GIT-323946.svg';
 import bootstrap from './frontend-images/-BOOTSTRAP-323946.svg';
+import angular from './frontend-images/-ANGULAR-323946.svg'
+import figma from './frontend-images/-FIGMA-323946.svg'
+import materialui from './frontend-images/-MaterialUI-323946.svg'
+import tailwind from './frontend-images/-Tailwind-323946.svg'
 
 const frontendTechs = [
-  git, html, css, js, ts, react, next, redux, jest, rtl, vite, bootstrap
+  html, css, js, ts, react, next, redux, bootstrap, materialui, tailwind, angular, vite, figma
 ]
 
 export default frontendTechs;

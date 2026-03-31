@@ -5,7 +5,7 @@ import ScrollButton from '../ScrollButton/ScrollButton';
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>Geovanna Otoni © 2023</p>
+      <p>Geovanna Otoni © 2026</p>
       <ScrollButton />
     </footer>
   )
