@@ -32,7 +32,7 @@ function About() {
         </div> */}
         <div>
           <SchoolIcon className={styles.icon}/>
-          <p>Especializada em Desenvolvimento Web, Ciência de Dados e Computação na Nuvem</p>
+          <p>Especializações em Desenvolvimento Web, Ciência de Dados e Computação na Nuvem</p>
         </div>
         <div>
           <MenuBookIcon className={styles.icon}/>

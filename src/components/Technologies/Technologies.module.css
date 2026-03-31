@@ -17,7 +17,7 @@
 }
 
 .tech_container article {
-  flex: 1 1 30rem;
+  flex: 1 1 calc(50% - 2rem);
   background-color: #323946;
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
@@ -26,6 +26,7 @@
   min-height: 30vw;
   margin-bottom: 3rem;
 }
+
 
 .tech_container article:hover {
   transform: scale(1.02);
@@ -51,6 +52,12 @@
 }
 
 .image {
+  max-width: 30%;
+}
+
+.badge {
+  height: 35px;
+  width: auto;
   max-width: 30%;
 }
 
